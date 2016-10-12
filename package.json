@@ -1,0 +1,87 @@
+{
+  "name": "neoutil",
+  "version": "0.0.1",
+  "description": "A tiny utility collection, mainly for assertions, formatting and simple eventing.",
+  "main": "src/neoutil.js",
+  "scripts": {
+    "test": "node spec/spec_runner.js",
+    "pretest": "node_modules/.bin/jshint src/",
+    "build": "node_modules/.bin/uglifyjs src/util.js --comments -c -o dist/util.min.js",
+    "prebuild": "npm run test"
+  },
+  "keywords": [
+    "utility",
+    "assertion",
+    "formatting",
+    "number",
+    "string",
+    "rounding",
+    "rounding"
+  ],
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "jasmine-console-reporter": "^1.2.7",
+    "jshint": "^2.9.3",
+    "uglify-js": "^2.7.3"
+  },
+  "author": "Lennart Pegel <github@justlep.net>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justlep/neoutil.git"
+  },
+  "license": "MIT",
+  "jshintConfig": {
+    "passfail": false,
+    "maxerr": 100,
+    "maxlen": 130,
+    "browser": true,
+    "node": true,
+    "rhino": false,
+    "couch": false,
+    "wsh": true,
+    "jquery": true,
+    "prototypejs": false,
+    "mootools": false,
+    "dojo": false,
+    "predef": [
+      "require",
+      "define"
+    ],
+    "debug": false,
+    "devel": true,
+    "strict": true,
+    "globalstrict": false,
+    "asi": true,
+    "laxbreak": true,
+    "bitwise": true,
+    "boss": false,
+    "curly": true,
+    "eqeqeq": true,
+    "eqnull": false,
+    "evil": false,
+    "expr": false,
+    "forin": false,
+    "immed": true,
+    "latedef": true,
+    "loopfunc": false,
+    "noarg": true,
+    "regexp": true,
+    "regexdash": false,
+    "scripturl": true,
+    "shadow": false,
+    "supernew": false,
+    "undef": true,
+    "newcap": true,
+    "noempty": true,
+    "nonew": true,
+    "nomen": true,
+    "onevar": false,
+    "plusplus": false,
+    "sub": false,
+    "trailing": true,
+    "white": false,
+    "indent": 4
+  },
+  "dependencies": {
+  }
+}
