@@ -1,7 +1,7 @@
 {
   "name": "neoutil",
   "description": "A tiny utility collection, mainly for assertion and formatting purposes.",
-  "main": "dist/util.min.js",
+  "main": "src/util.js",
   "authors": [
     "Lennart Pegel <github@justlep.net>"
   ],
