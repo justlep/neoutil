@@ -1,6 +1,6 @@
 {
   "name": "neoutil",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tiny utility collection, mainly for assertions, formatting and simple eventing.",
   "main": "src/neoutil.js",
   "scripts": {
